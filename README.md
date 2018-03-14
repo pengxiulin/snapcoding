@@ -24,7 +24,7 @@ git clone https://github.com/pengxiulin/snapcoding
 # Go into the repository
 cd snapcoding
 # Install dependencies
-npm install
+ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/" npm install
 # Run the app
 npm start
 ```
